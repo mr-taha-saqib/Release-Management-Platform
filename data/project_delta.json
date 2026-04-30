@@ -1,0 +1,182 @@
+{
+  "project": {
+    "id": "delta",
+    "name": "Delta",
+    "description": "",
+    "status": "In Progress",
+    "start_date": "",
+    "deadline": "2026-12-31",
+    "source": {
+      "type": "jira_live",
+      "domain": "https://yourcompany.atlassian.net",
+      "project_key": "DELTA",
+      "fetched_at": "2026-04-17"
+    }
+  },
+  "tasks": [
+    {
+      "id": "DELTA-7",
+      "title": "Test chart selector — rendering",
+      "type": "Task",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "Low",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/DELTA-7)"
+    },
+    {
+      "id": "DELTA-6",
+      "title": "Test date filter — edge cases",
+      "type": "Task",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "Medium",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/DELTA-6)"
+    },
+    {
+      "id": "DELTA-5",
+      "title": "Test PDF export — formatting",
+      "type": "Task",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "Medium",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/DELTA-5)"
+    },
+    {
+      "id": "DELTA-4",
+      "title": "Update user documentation",
+      "type": "Task",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "Low",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/DELTA-4)"
+    },
+    {
+      "id": "DELTA-3",
+      "title": "Add chart type selector (bar/line/pie)",
+      "type": "Story",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "Low",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/DELTA-3)"
+    },
+    {
+      "id": "DELTA-2",
+      "title": "Implement date range filter on dashboards",
+      "type": "Story",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "Medium",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/DELTA-2)"
+    },
+    {
+      "id": "DELTA-1",
+      "title": "Add export-to-PDF for monthly reports",
+      "type": "Story",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "Medium",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/DELTA-1)"
+    }
+  ],
+  "team": [
+    {
+      "id": "unassigned",
+      "name": "Unassigned",
+      "role": "Team Member",
+      "capacity_hours_per_week": 40,
+      "assigned_tasks": [
+        "DELTA-7",
+        "DELTA-6",
+        "DELTA-5",
+        "DELTA-4",
+        "DELTA-3",
+        "DELTA-2",
+        "DELTA-1"
+      ]
+    }
+  ],
+  "release_readiness": {
+    "readiness_color": "GREEN",
+    "blockers": [],
+    "qa_gaps": [],
+    "doc_gaps": [],
+    "cross_dependencies": [],
+    "servicenow_cr": "CHG0001004",
+    "cab_status": "Approved",
+    "cab_state": "Scheduled (Approved)",
+    "scheduled_start": "2026-05-16 22:00",
+    "scheduled_end": "2026-05-16 23:00",
+    "affected_cis": "reporting-server-prod",
+    "go_nogo_recommendation": "GO"
+  },
+  "historical_context": {
+    "rollbacks_last_6": 0,
+    "overruns_last_6": 0,
+    "avg_overrun_days": 0,
+    "records": [],
+    "notes": []
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "space_key": "ATLAS",
+  "space_name": "Atlas",
+  "fetched_at": "2026-04-17",
+  "pages": [
+    {
+      "id": "4554928",
+      "title": "Atlas",
+      "content": "Description #F4F5F7 In a sentence or two, describe the purpose of this space. Project Tracker com.atlassian.confluence.project-linker project-linker default 3781a39a-e79f-41c1-a914-38846c22a77c Recently updated content This list below will automatically update each time somebody in your space creates or updates content. page,whiteboard,database,blog 10 concise true Contributors This list below will automatically update each time somebody in your space creates or updates content. descendants 10",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/ATLAS/pages/4554928",
+      "last_updated": "2026-04-15",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "4554941",
+      "title": "Template - Project plan",
+      "content": "Driver @ mention the driver Approver @ approver Contributors @ contributors Informed @ stakeholders Objective Summarize the objective in 1-2 sentences Due date Type // to add a date Key outcomes List expected outcomes and success metrics Status not started / in progress Yellow / complete Green Problem statement Describe the problem and its impact. Include the hypothesis that's driving your work (&quot;We think X will do Y, and we'll know we've succeeded if Z&quot;). Scope Must have: Add your project's core requirements Nice to have: Add anything you want but don't strictly need Not in scope: Add anything you don't want to include Timeline Add a timeline link here or type /whiteboard to create a timeline in whiteboards Milestones and deadlines Milestone Owner Deadline Status e.g., Finalize designs for v1 @ owner Type // to add a date Related links Type /database to create a database of relevant research, meetings, or any other key documents for this project",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/ATLAS/pages/4554941",
+      "last_updated": "2026-04-15",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "4554953",
+      "title": "Template - Decision documentation",
+      "content": "Status Not started / In progress Yellow / Complete Green Impact High Red / Medium Yellow / Low Green Driver @ mention driver Approver @ approver Contributors @ contributors Informed @ stakeholders Due date Type // to add a date Resources Type /link to add links to relevant research, pages, and related decisions Background Provide context on a decision the team needs to make and include information about constraints and challenges. Relevant data Add any data or feedback the team should consider when making this decision. Options considered Option 1 Option 2 Description Pros and cons Estimated cost Large Red Medium Yellow Action items Add action items to close the loop on open questions or concerns. \\n \\n 1 \\n incomplete \\n Type your task here. Use &quot;@&quot; to assign a user and &quot;//&quot; to select a due date. \\n \\n Outcome Summarize the outcome.",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/ATLAS/pages/4554953",
+      "last_updated": "2026-04-15",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "4554965",
+      "title": "Template - Meeting notes",
+      "content": "Date Participants Type @ name to mention a person and add them as a meeting attendee - they will be notified Goals List goals for this meeting (e.g., Set design priorities for FY27) Brainstorm Type /whiteboard to create an interactive canvas for icebreakers, brainstorms, diagramming, retros, and more Discussion topics Time Topic Presenter Notes @ mention teammate Add notes for each discussion topic Action items incomplete Decisions Type /decision to record the decisions you make in this meeting: 8eba1e75-9128-420c-9625-a0918220ef88 a1fe5bf2-42c4-41ef-a821-b0aa3ef27f59 DECIDED Related info Type /database to create a database of related information, meetings, or assets",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/ATLAS/pages/4554965",
+      "last_updated": "2026-04-15",
+      "labels": [],
+      "is_meeting_note": true
+    },
+    {
+      "id": "5144577",
+      "title": "ATLAS v3.2 – Release Plan",
+      "content": "Project Atlas &mdash; Release Plan Version: v3.2 &mdash; May 2026 Release | Team: Team Alpha (8 members) | Description: Payment processing microservice upgrade Readiness: Amber &mdash; Critical bugs open, incomplete docs DB Migration: Yes | Has Dependencies: Yes &mdash; depends on Cipher, blocks Beacon Progress 4 of 15 tickets done (26% complete) Ticket Summary Ticket Type Summary Status Assignee ATLAS-101 Story Implement PCI-compliant tokenization for card data Done Dev1 ATLAS-102 Story Migrate payment_transactions table to new schema Done Dev2 ATLAS-103 Story Update payment gateway API integration In Progress Dev3 ATLAS-104 Story Add retry logic for failed payment callbacks Done Dev1 ATLAS-105 Story Implement audit logging for payment events To Do Dev4 ATLAS-106 Bug Race condition in concurrent payment processing Open Dev2 ATLAS-107 Bug Memory leak in connection pool under load Open Dev3 ATLAS-108 Task Database migration script for payment_transactions Done Dev2 ATLAS-109 Task Update API documentation for v3.2 endpoints In Progress Dev4 ATLAS-110 Story Add fraud detection webhook (LATE ADD) To Do Dev1 ATLAS-111 Story Support multi-currency payments (LATE ADD) To Do Dev2 ATLAS-201 Test Execution Test PCI tokenization &mdash; functional Passed QA1 ATLAS-202 Test Execution Test schema migration &mdash; data integrity Passed QA1 ATLAS-203 Test Execution Test gateway API &mdash; integration Not Started QA2 ATLAS-204 Test Execution Test retry logic &mdash; edge cases Passed QA1 Dependencies Source Link Target Reason Risk ATLAS-102 blocks BEACON-105 Beacon's payment integration depends on Atlas's new schema Medium &mdash; late Atlas delivery blocks Beacon CIPHER-104 blocks ATLAS-103 Atlas's gateway update depends on Cipher's hardening High &mdash; Cipher is significantly behind CIPHER-101 relates to ATLAS-101 Both modify API gateway configuration Medium &mdash; config conflict risk CHG0001050 (External) shared CI CHG0001001 (Atlas) Both modify payment-db-prod High &mdash",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/ATLAS/pages/5144577",
+      "last_updated": "2026-04-16",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "5177345",
+      "title": "ATLAS v3.2 – Deployment Runbook",
+      "content": "Project Atlas &mdash; Deployment Runbook Version: v3.2 &mdash; May 2026 Release | DB Migration: Yes Prerequisites All tickets in Done status before deployment CAB approval obtained from ServiceNow Rollback procedure reviewed and tested DB migration script ready and tested on staging Deployment Steps ATLAS-101 &mdash; Implement PCI-compliant tokenization for card data Done ATLAS-102 &mdash; Migrate payment_transactions table to new schema Done ATLAS-103 &mdash; Update payment gateway API integration In Progress ATLAS-104 &mdash; Add retry logic for failed payment callbacks Done ATLAS-105 &mdash; Implement audit logging for payment events To Do ATLAS-108 &mdash; Database migration script for payment_transactions Done ATLAS-109 &mdash; Update API documentation for v3.2 endpoints In Progress ATLAS-110 &mdash; Add fraud detection webhook (LATE ADD) To Do ATLAS-111 &mdash; Support multi-currency payments (LATE ADD) To Do Post-Deployment Verification Smoke test all critical user journeys Check application logs for errors Verify monitoring dashboards are GREEN Confirm ServiceNow CR is closed Rollback Trigger Conditions Critical error rate exceeds 1% within 15 minutes of deploy Any P1 incident raised post-deployment Key feature unavailable after verification",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/ATLAS/pages/5177345",
+      "last_updated": "2026-04-16",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "5210113",
+      "title": "ATLAS v3.2 – Test Evidence",
+      "content": "Project Atlas &mdash; Test Evidence Version: v3.2 &mdash; May 2026 Release Test Coverage Summary Metric Value Total tickets 15 Tickets Done 4 Test-linked tickets 4 Coverage 26% Test-Linked Tickets Ticket Summary Test Status ATLAS-101 Implement PCI-compliant tokenization for card data Linked Done ATLAS-102 Migrate payment_transactions table to new schema Linked Done ATLAS-103 Update payment gateway API integration Linked In Progress ATLAS-104 Add retry logic for failed payment callbacks Linked Done Test Types Performed Unit Tests &mdash; per ticket PR Integration Tests &mdash; staging environment Regression Tests &mdash; automated suite UAT &mdash; stakeholder sign-off",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/ATLAS/pages/5210113",
+      "last_updated": "2026-04-16",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "5242881",
+      "title": "ATLAS v3.2 – Rollback Procedure",
+      "content": "Project Atlas &mdash; Rollback Procedure Version: v3.2 &mdash; May 2026 Release | DB Migration: Yes When to Rollback Error rate exceeds threshold within 15 minutes of deployment P1 incident raised and confirmed as deployment-related On-call engineer and release manager agree rollback is needed Rollback Steps Notify stakeholders via incident channel Raise ServiceNow incident linked to ATLAS Change Request Revert deployment to previous stable version Run DB rollback script (migration reverse) Verify application is operational on previous version Run smoke tests to confirm stability Update ServiceNow CR with rollback outcome Schedule post-incident review within 48 hours Contacts Role Action Release Manager Approves rollback decision On-Call Engineer Executes rollback steps CAB Representative Updates ServiceNow CR QA Lead Verifies rollback smoke tests",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/ATLAS/pages/5242881",
+      "last_updated": "2026-04-16",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "5275649",
+      "title": "ATLAS v3.2 – Release Notes",
+      "content": "Project Atlas &mdash; Release Notes Version: v3.2 &mdash; May 2026 Release Payment processing microservice upgrade New Features ATLAS-101 &mdash; Implement PCI-compliant tokenization for card data High ATLAS-102 &mdash; Migrate payment_transactions table to new schema High ATLAS-103 &mdash; Update payment gateway API integration High ATLAS-104 &mdash; Add retry logic for failed payment callbacks Medium ATLAS-105 &mdash; Implement audit logging for payment events Medium ATLAS-110 &mdash; Add fraud detection webhook (LATE ADD) High ATLAS-111 &mdash; Support multi-currency payments (LATE ADD) Medium Bug Fixes ATLAS-106 &mdash; Race condition in concurrent payment processing Critical ATLAS-107 &mdash; Memory leak in connection pool under load Blocker Tasks & Improvements ATLAS-108 &mdash; Database migration script for payment_transactions High ATLAS-109 &mdash; Update API documentation for v3.2 endpoints Low Historical Context Month Type Data Point Outcome No historical data Known Issues Refer to open Jira tickets for remaining known issues",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/ATLAS/pages/5275649",
+      "last_updated": "2026-04-16",
+      "labels": [],
+      "is_meeting_note": true
+    }
+  ]
+}

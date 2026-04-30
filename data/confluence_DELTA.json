@@ -1,0 +1,88 @@
+{
+  "space_key": "DELTA",
+  "space_name": "Delta",
+  "fetched_at": "2026-04-17",
+  "pages": [
+    {
+      "id": "4849837",
+      "title": "Delta",
+      "content": "Description #F4F5F7 In a sentence or two, describe the purpose of this space. Project Tracker com.atlassian.confluence.project-linker project-linker default 3781a39a-e79f-41c1-a914-38846c22a77c Recently updated content This list below will automatically update each time somebody in your space creates or updates content. page,whiteboard,database,blog 10 concise true Contributors This list below will automatically update each time somebody in your space creates or updates content. descendants 10",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/DELTA/pages/4849837",
+      "last_updated": "2026-04-15",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "4849850",
+      "title": "Template - Project plan",
+      "content": "Driver @ mention the driver Approver @ approver Contributors @ contributors Informed @ stakeholders Objective Summarize the objective in 1-2 sentences Due date Type // to add a date Key outcomes List expected outcomes and success metrics Status not started / in progress Yellow / complete Green Problem statement Describe the problem and its impact. Include the hypothesis that's driving your work (&quot;We think X will do Y, and we'll know we've succeeded if Z&quot;). Scope Must have: Add your project's core requirements Nice to have: Add anything you want but don't strictly need Not in scope: Add anything you don't want to include Timeline Add a timeline link here or type /whiteboard to create a timeline in whiteboards Milestones and deadlines Milestone Owner Deadline Status e.g., Finalize designs for v1 @ owner Type // to add a date Related links Type /database to create a database of relevant research, meetings, or any other key documents for this project",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/DELTA/pages/4849850",
+      "last_updated": "2026-04-15",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "4849862",
+      "title": "Template - Decision documentation",
+      "content": "Status Not started / In progress Yellow / Complete Green Impact High Red / Medium Yellow / Low Green Driver @ mention driver Approver @ approver Contributors @ contributors Informed @ stakeholders Due date Type // to add a date Resources Type /link to add links to relevant research, pages, and related decisions Background Provide context on a decision the team needs to make and include information about constraints and challenges. Relevant data Add any data or feedback the team should consider when making this decision. Options considered Option 1 Option 2 Description Pros and cons Estimated cost Large Red Medium Yellow Action items Add action items to close the loop on open questions or concerns. \\n \\n 1 \\n incomplete \\n Type your task here. Use &quot;@&quot; to assign a user and &quot;//&quot; to select a due date. \\n \\n Outcome Summarize the outcome.",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/DELTA/pages/4849862",
+      "last_updated": "2026-04-15",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "4849874",
+      "title": "Template - Meeting notes",
+      "content": "Date Participants Type @ name to mention a person and add them as a meeting attendee - they will be notified Goals List goals for this meeting (e.g., Set design priorities for FY27) Brainstorm Type /whiteboard to create an interactive canvas for icebreakers, brainstorms, diagramming, retros, and more Discussion topics Time Topic Presenter Notes @ mention teammate Add notes for each discussion topic Action items incomplete Decisions Type /decision to record the decisions you make in this meeting: 520b059e-191a-4513-9f96-c305193c5f61 597f18ea-231f-41e3-899b-f2925ffe921a DECIDED Related info Type /database to create a database of related information, meetings, or assets",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/DELTA/pages/4849874",
+      "last_updated": "2026-04-15",
+      "labels": [],
+      "is_meeting_note": true
+    },
+    {
+      "id": "5177405",
+      "title": "DELTA v4.1 – Deployment Runbook",
+      "content": "Project Delta &mdash; Deployment Runbook Version: v4.1 &mdash; May 2026 Release | DB Migration: No Prerequisites All tickets in Done status before deployment CAB approval obtained from ServiceNow Rollback procedure reviewed and tested Deployment Steps DELTA-101 &mdash; Add export-to-PDF for monthly reports Done DELTA-102 &mdash; Implement date range filter on dashboards Done DELTA-103 &mdash; Add chart type selector (bar/line/pie) Done DELTA-104 &mdash; Update user documentation Done Post-Deployment Verification Smoke test all critical user journeys Check application logs for errors Verify monitoring dashboards are GREEN Confirm ServiceNow CR is closed Rollback Trigger Conditions Critical error rate exceeds 1% within 15 minutes of deploy Any P1 incident raised post-deployment Key feature unavailable after verification",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/DELTA/pages/5177405",
+      "last_updated": "2026-04-16",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "5406721",
+      "title": "DELTA v4.1 – Release Plan",
+      "content": "Project Delta &mdash; Release Plan Version: v4.1 &mdash; May 2026 Release | Team: Team Delta (3 members) | Description: Internal reporting dashboard enhancement Readiness: Green &mdash; fully ready DB Migration: No | Has Dependencies: No Progress 4 of 7 tickets done (57% complete) Ticket Summary Ticket Type Summary Status Assignee DELTA-101 Story Add export-to-PDF for monthly reports Done Dev10 DELTA-102 Story Implement date range filter on dashboards Done Dev10 DELTA-103 Story Add chart type selector (bar/line/pie) Done Dev11 DELTA-104 Task Update user documentation Done Dev11 DELTA-201 Test Execution Test PDF export &mdash; formatting Passed QA5 DELTA-202 Test Execution Test date filter &mdash; edge cases Passed QA5 DELTA-203 Test Execution Test chart selector &mdash; rendering Passed QA5 Dependencies Source Link Target Reason Risk BEACON-104 depends on DELTA-102 Beacon's component library uses Delta's date filter Low &mdash; Delta is complete ServiceNow / CAB Type Number Description State CAB Decision No ServiceNow records",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/DELTA/pages/5406721",
+      "last_updated": "2026-04-16",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "5439489",
+      "title": "DELTA v4.1 – Test Evidence",
+      "content": "Project Delta &mdash; Test Evidence Version: v4.1 &mdash; May 2026 Release Test Coverage Summary Metric Value Total tickets 7 Tickets Done 4 Test-linked tickets 3 Coverage 42% Test-Linked Tickets Ticket Summary Test Status DELTA-101 Add export-to-PDF for monthly reports Linked Done DELTA-102 Implement date range filter on dashboards Linked Done DELTA-103 Add chart type selector (bar/line/pie) Linked Done Test Types Performed Unit Tests &mdash; per ticket PR Integration Tests &mdash; staging environment Regression Tests &mdash; automated suite UAT &mdash; stakeholder sign-off",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/DELTA/pages/5439489",
+      "last_updated": "2026-04-16",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "5472257",
+      "title": "DELTA v4.1 – Rollback Procedure",
+      "content": "Project Delta &mdash; Rollback Procedure Version: v4.1 &mdash; May 2026 Release | DB Migration: No When to Rollback Error rate exceeds threshold within 15 minutes of deployment P1 incident raised and confirmed as deployment-related On-call engineer and release manager agree rollback is needed Rollback Steps Notify stakeholders via incident channel Raise ServiceNow incident linked to DELTA Change Request Revert deployment to previous stable version Verify application is operational on previous version Run smoke tests to confirm stability Update ServiceNow CR with rollback outcome Schedule post-incident review within 48 hours Contacts Role Action Release Manager Approves rollback decision On-Call Engineer Executes rollback steps CAB Representative Updates ServiceNow CR QA Lead Verifies rollback smoke tests",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/DELTA/pages/5472257",
+      "last_updated": "2026-04-16",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "5472272",
+      "title": "DELTA v4.1 – Release Notes",
+      "content": "Project Delta &mdash; Release Notes Version: v4.1 &mdash; May 2026 Release Internal reporting dashboard enhancement New Features DELTA-101 &mdash; Add export-to-PDF for monthly reports Medium DELTA-102 &mdash; Implement date range filter on dashboards Medium DELTA-103 &mdash; Add chart type selector (bar/line/pie) Low Bug Fixes None Tasks & Improvements DELTA-104 &mdash; Update user documentation Low Historical Context Month Type Data Point Outcome No historical data Known Issues Refer to open Jira tickets for remaining known issues",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/DELTA/pages/5472272",
+      "last_updated": "2026-04-16",
+      "labels": [],
+      "is_meeting_note": true
+    }
+  ]
+}

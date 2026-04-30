@@ -1,0 +1,424 @@
+{
+  "project": {
+    "id": "atlas",
+    "name": "Atlas",
+    "description": "",
+    "status": "In Progress",
+    "start_date": "",
+    "deadline": "2026-12-31",
+    "source": {
+      "type": "jira_live",
+      "domain": "https://yourcompany.atlassian.net",
+      "project_key": "ATLAS",
+      "fetched_at": "2026-04-17"
+    }
+  },
+  "tasks": [
+    {
+      "id": "ATLAS-15",
+      "title": "Test retry logic — edge cases",
+      "type": "Task",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "Medium",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/ATLAS-15)"
+    },
+    {
+      "id": "ATLAS-14",
+      "title": "Test gateway API — integration",
+      "type": "Task",
+      "status": "To Do",
+      "jira_status": "To Do",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": null,
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/ATLAS-14)"
+    },
+    {
+      "id": "ATLAS-13",
+      "title": "Test schema migration — data integrity",
+      "type": "Task",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/ATLAS-13)"
+    },
+    {
+      "id": "ATLAS-12",
+      "title": "Test PCI tokenization — functional",
+      "type": "Task",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/ATLAS-12)"
+    },
+    {
+      "id": "ATLAS-11",
+      "title": "Support multi-currency payments (LATE ADD)",
+      "type": "Story",
+      "status": "To Do",
+      "jira_status": "To Do",
+      "priority": "Medium",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": null,
+      "labels": [
+        "M1___scope_creep"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/ATLAS-11)"
+    },
+    {
+      "id": "ATLAS-10",
+      "title": "Add fraud detection webhook (LATE ADD)",
+      "type": "Story",
+      "status": "To Do",
+      "jira_status": "To Do",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": null,
+      "labels": [
+        "M1___scope_creep"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/ATLAS-10)"
+    },
+    {
+      "id": "ATLAS-9",
+      "title": "Update API documentation for v3.2 endpoints",
+      "type": "Task",
+      "status": "In Progress",
+      "jira_status": "In Progress",
+      "priority": "Low",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": null,
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/ATLAS-9)"
+    },
+    {
+      "id": "ATLAS-8",
+      "title": "Database migration script for payment_transactions",
+      "type": "Task",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/ATLAS-8)"
+    },
+    {
+      "id": "ATLAS-7",
+      "title": "Memory leak in connection pool under load",
+      "type": "Bug",
+      "status": "To Do",
+      "jira_status": "To Do",
+      "priority": "Highest",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": null,
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/ATLAS-7)"
+    },
+    {
+      "id": "ATLAS-6",
+      "title": "Race condition in concurrent payment processing",
+      "type": "Bug",
+      "status": "To Do",
+      "jira_status": "To Do",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": null,
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/ATLAS-6)"
+    },
+    {
+      "id": "ATLAS-5",
+      "title": "Implement audit logging for payment events",
+      "type": "Story",
+      "status": "To Do",
+      "jira_status": "To Do",
+      "priority": "Medium",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": null,
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/ATLAS-5)"
+    },
+    {
+      "id": "ATLAS-4",
+      "title": "Add retry logic for failed payment callbacks",
+      "type": "Story",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "Medium",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/ATLAS-4)"
+    },
+    {
+      "id": "ATLAS-3",
+      "title": "Update payment gateway API integration",
+      "type": "Story",
+      "status": "In Progress",
+      "jira_status": "In Progress",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": null,
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/ATLAS-3)"
+    },
+    {
+      "id": "ATLAS-2",
+      "title": "Migrate payment_transactions table to new schema",
+      "type": "Story",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/ATLAS-2)"
+    },
+    {
+      "id": "ATLAS-1",
+      "title": "Implement PCI-compliant tokenization for card data",
+      "type": "Story",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/ATLAS-1)"
+    }
+  ],
+  "team": [
+    {
+      "id": "unassigned",
+      "name": "Unassigned",
+      "role": "Team Member",
+      "capacity_hours_per_week": 40,
+      "assigned_tasks": [
+        "ATLAS-15",
+        "ATLAS-14",
+        "ATLAS-13",
+        "ATLAS-12",
+        "ATLAS-11",
+        "ATLAS-10",
+        "ATLAS-9",
+        "ATLAS-8",
+        "ATLAS-7",
+        "ATLAS-6",
+        "ATLAS-5",
+        "ATLAS-4",
+        "ATLAS-3",
+        "ATLAS-2",
+        "ATLAS-1"
+      ]
+    }
+  ],
+  "release_readiness": {
+    "readiness_color": "RED",
+    "blockers": [],
+    "qa_gaps": [],
+    "doc_gaps": [],
+    "cross_dependencies": [],
+    "servicenow_cr": "CHG0001001",
+    "cab_status": "Pending",
+    "cab_state": "Assess (New)",
+    "scheduled_start": "2026-05-16 22:00",
+    "scheduled_end": "2026-05-17 02:00",
+    "affected_cis": "payment-db-prod, api-gateway-prod, k8s-cluster-prod",
+    "go_nogo_recommendation": "NO-GO"
+  },
+  "historical_context": {
+    "rollbacks_last_6": 2,
+    "overruns_last_6": 6,
+    "avg_overrun_days": 0,
+    "records": [
+      {
+        "month": "Mar 2026",
+        "type": "Post-Release Report",
+        "data_point": "Deployment duration: 90 min vs 45 min planned",
+        "outcome": "Completed with issues",
+        "pattern": "Duration overrun pattern"
+      },
+      {
+        "month": "Feb 2026",
+        "type": "Post-Release Report",
+        "data_point": "Duration: 30 min vs 30 min planned",
+        "outcome": "Completed successfully",
+        "pattern": "Occasional on-time delivery"
+      },
+      {
+        "month": "Jan 2026",
+        "type": "Post-Release Report",
+        "data_point": "Duration: 90 min vs 30 min planned. Connection pool issue.",
+        "outcome": "Completed with issues — 12 min customer impact",
+        "pattern": "Recurring overrun + incident pattern"
+      },
+      {
+        "month": "Jan 2026",
+        "type": "Retrospective",
+        "data_point": "Pre-Prod didn't match Prod infrastructure sizing. Pool: 50 vs 200.",
+        "outcome": "Action: Mandate env parity checks",
+        "pattern": "Environment drift pattern"
+      },
+      {
+        "month": "Dec 2025",
+        "type": "Post-Release Report",
+        "data_point": "Config mismatch discovered during deployment",
+        "outcome": "Rolled back",
+        "pattern": "Rollback due to config"
+      },
+      {
+        "month": "Nov 2025",
+        "type": "Post-Release Report",
+        "data_point": "Duration: 60 min vs 30 min planned",
+        "outcome": "Completed with issues",
+        "pattern": "Duration overrun pattern"
+      },
+      {
+        "month": "Mar 2026",
+        "type": "Closed CR",
+        "data_point": "CHG0000901 — Payment Service",
+        "outcome": "Completed with issues",
+        "pattern": ""
+      },
+      {
+        "month": "Feb 2026",
+        "type": "Closed CR",
+        "data_point": "CHG0000801 — Payment Patch",
+        "outcome": "Completed successfully",
+        "pattern": ""
+      },
+      {
+        "month": "Jan 2026",
+        "type": "Closed CR",
+        "data_point": "CHG0000701 — Payment Major",
+        "outcome": "Completed with issues — 1 incident",
+        "pattern": "Incident during deployment pattern"
+      },
+      {
+        "month": "Dec 2025",
+        "type": "Closed CR",
+        "data_point": "CHG0000601 — Payment Year-end",
+        "outcome": "Rolled Back — config mismatch",
+        "pattern": "Config-related rollback"
+      },
+      {
+        "month": "Nov 2025",
+        "type": "Closed CR",
+        "data_point": "CHG0000501 — Payment Update",
+        "outcome": "Completed with issues",
+        "pattern": "Duration overrun"
+      }
+    ],
+    "notes": [
+      "Completed with issues",
+      "Completed successfully",
+      "Completed with issues — 12 min customer impact",
+      "Action: Mandate env parity checks",
+      "Rolled back",
+      "Completed with issues",
+      "Completed with issues",
+      "Completed successfully",
+      "Completed with issues — 1 incident",
+      "Rolled Back — config mismatch",
+      "Completed with issues"
+    ]
+  }
+}

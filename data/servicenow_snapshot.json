@@ -1,0 +1,151 @@
+{
+  "source": "Excel (Release_Management_Platform_Sample_Data)",
+  "fetched_at": "2026-04-17",
+  "change_requests": [
+    {
+      "number": "CHG0001001",
+      "short_description": "ATLAS v3.2 — Payment service upgrade",
+      "state": "Assess",
+      "risk": "High",
+      "cab_decision": "requested",
+      "scheduled_start": "2026-05-16 22:00",
+      "scheduled_end": "2026-05-17 02:00",
+      "ci": "payment-db-prod, api-gateway-prod, k8s-cluster-prod",
+      "assignment_group": "Atlas / Team Alpha"
+    },
+    {
+      "number": "CHG0001002",
+      "short_description": "BEACON v2.0 — Customer portal redesign",
+      "state": "Assess",
+      "risk": "Medium",
+      "cab_decision": "requested",
+      "scheduled_start": "2026-05-16 22:00",
+      "scheduled_end": "2026-05-17 00:00",
+      "ci": "customer-portal-prod, k8s-cluster-prod",
+      "assignment_group": "Beacon / Team Beta"
+    },
+    {
+      "number": "CHG0001003",
+      "short_description": "CIPHER v1.5 — API gateway hardening",
+      "state": "Draft",
+      "risk": "High",
+      "cab_decision": "not_requested",
+      "scheduled_start": "2026-05-16 23:00",
+      "scheduled_end": "2026-05-17 03:00",
+      "ci": "api-gateway-prod, k8s-cluster-prod",
+      "assignment_group": "Cipher / Team Gamma"
+    },
+    {
+      "number": "CHG0001004",
+      "short_description": "DELTA v4.1 — Reporting dashboard enhancements",
+      "state": "Scheduled",
+      "risk": "Low",
+      "cab_decision": "approved",
+      "scheduled_start": "2026-05-16 22:00",
+      "scheduled_end": "2026-05-16 23:00",
+      "ci": "reporting-server-prod",
+      "assignment_group": "Delta / Team Delta"
+    },
+    {
+      "number": "CHG0001050",
+      "short_description": "Database platform patching (EXTERNAL)",
+      "state": "Scheduled",
+      "risk": "Medium",
+      "cab_decision": "approved",
+      "scheduled_start": "2026-05-16 20:00",
+      "scheduled_end": "2026-05-16 21:30",
+      "ci": "payment-db-prod",
+      "assignment_group": "DBA Team"
+    },
+    {
+      "number": "CHG0001051",
+      "short_description": "Network firewall rule update (EXTERNAL)",
+      "state": "Scheduled",
+      "risk": "Low",
+      "cab_decision": "approved",
+      "scheduled_start": "2026-05-16 21:00",
+      "scheduled_end": "2026-05-16 21:30",
+      "ci": "api-gateway-prod",
+      "assignment_group": "Network Team"
+    }
+  ],
+  "change_tasks": [
+    {
+      "number": "CTASK0001001",
+      "description": "Run database migration script",
+      "state": "Open",
+      "assigned_to": "Atlas"
+    },
+    {
+      "number": "CTASK0001002",
+      "description": "Deploy atlas-payment-service:3.2.0",
+      "state": "Open",
+      "assigned_to": "Atlas"
+    },
+    {
+      "number": "CTASK0001003",
+      "description": "Execute smoke tests",
+      "state": "Open",
+      "assigned_to": "Atlas"
+    },
+    {
+      "number": "CTASK0001004",
+      "description": "Validate monitoring dashboards",
+      "state": "Open",
+      "assigned_to": "Atlas"
+    },
+    {
+      "number": "CTASK0001010",
+      "description": "Deploy delta-reporting:4.1.0",
+      "state": "Open",
+      "assigned_to": "Delta"
+    },
+    {
+      "number": "CTASK0001011",
+      "description": "Run regression tests",
+      "state": "Open",
+      "assigned_to": "Delta"
+    }
+  ],
+  "cmdb_cis": [
+    {
+      "name": "payment-db-prod",
+      "description": "Production payment database",
+      "used_by": "Atlas, Beacon (via Atlas)",
+      "status": "Active"
+    },
+    {
+      "name": "api-gateway-prod",
+      "description": "Production API gateway",
+      "used_by": "Atlas, Cipher, Beacon",
+      "status": "Active"
+    },
+    {
+      "name": "customer-portal-prod",
+      "description": "Production customer portal",
+      "used_by": "Beacon",
+      "status": "Active"
+    },
+    {
+      "name": "reporting-server-prod",
+      "description": "Production reporting server",
+      "used_by": "Delta",
+      "status": "Active"
+    },
+    {
+      "name": "k8s-cluster-prod",
+      "description": "Production Kubernetes cluster",
+      "used_by": "All",
+      "status": "Active"
+    }
+  ],
+  "incidents": [
+    {
+      "number": "INC0001001",
+      "description": "Elevated error rate on payment API after deployment",
+      "state": "New",
+      "severity": "Sev-2",
+      "caused_by": "Linked to: CHG0001001"
+    }
+  ]
+}

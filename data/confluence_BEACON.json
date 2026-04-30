@@ -1,0 +1,88 @@
+{
+  "space_key": "BEACON",
+  "space_name": "Beacon",
+  "fetched_at": "2026-04-17",
+  "pages": [
+    {
+      "id": "4555155",
+      "title": "Beacon",
+      "content": "Description #F4F5F7 In a sentence or two, describe the purpose of this space. Project Tracker com.atlassian.confluence.project-linker project-linker default 3781a39a-e79f-41c1-a914-38846c22a77c Recently updated content This list below will automatically update each time somebody in your space creates or updates content. page,whiteboard,database,blog 10 concise true Contributors This list below will automatically update each time somebody in your space creates or updates content. descendants 10",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/BEACON/pages/4555155",
+      "last_updated": "2026-04-15",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "4555168",
+      "title": "Template - Project plan",
+      "content": "Driver @ mention the driver Approver @ approver Contributors @ contributors Informed @ stakeholders Objective Summarize the objective in 1-2 sentences Due date Type // to add a date Key outcomes List expected outcomes and success metrics Status not started / in progress Yellow / complete Green Problem statement Describe the problem and its impact. Include the hypothesis that's driving your work (&quot;We think X will do Y, and we'll know we've succeeded if Z&quot;). Scope Must have: Add your project's core requirements Nice to have: Add anything you want but don't strictly need Not in scope: Add anything you don't want to include Timeline Add a timeline link here or type /whiteboard to create a timeline in whiteboards Milestones and deadlines Milestone Owner Deadline Status e.g., Finalize designs for v1 @ owner Type // to add a date Related links Type /database to create a database of relevant research, meetings, or any other key documents for this project",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/BEACON/pages/4555168",
+      "last_updated": "2026-04-15",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "4555180",
+      "title": "Template - Decision documentation",
+      "content": "Status Not started / In progress Yellow / Complete Green Impact High Red / Medium Yellow / Low Green Driver @ mention driver Approver @ approver Contributors @ contributors Informed @ stakeholders Due date Type // to add a date Resources Type /link to add links to relevant research, pages, and related decisions Background Provide context on a decision the team needs to make and include information about constraints and challenges. Relevant data Add any data or feedback the team should consider when making this decision. Options considered Option 1 Option 2 Description Pros and cons Estimated cost Large Red Medium Yellow Action items Add action items to close the loop on open questions or concerns. \\n \\n 1 \\n incomplete \\n Type your task here. Use &quot;@&quot; to assign a user and &quot;//&quot; to select a due date. \\n \\n Outcome Summarize the outcome.",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/BEACON/pages/4555180",
+      "last_updated": "2026-04-15",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "4555192",
+      "title": "Template - Meeting notes",
+      "content": "Date Participants Type @ name to mention a person and add them as a meeting attendee - they will be notified Goals List goals for this meeting (e.g., Set design priorities for FY27) Brainstorm Type /whiteboard to create an interactive canvas for icebreakers, brainstorms, diagramming, retros, and more Discussion topics Time Topic Presenter Notes @ mention teammate Add notes for each discussion topic Action items incomplete Decisions Type /decision to record the decisions you make in this meeting: 9c178bca-fee9-4ecf-8366-41fdfc22a5e5 7c16bcab-047c-4017-a04a-241c4e8e15ca DECIDED Related info Type /database to create a database of related information, meetings, or assets",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/BEACON/pages/4555192",
+      "last_updated": "2026-04-15",
+      "labels": [],
+      "is_meeting_note": true
+    },
+    {
+      "id": "5144593",
+      "title": "BEACON v2.0 – Deployment Runbook",
+      "content": "Project Beacon &mdash; Deployment Runbook Version: v2.0 &mdash; May 2026 Release | DB Migration: No Prerequisites All tickets in Done status before deployment CAB approval obtained from ServiceNow Rollback procedure reviewed and tested Deployment Steps BEACON-101 &mdash; Redesign customer dashboard layout Done BEACON-102 &mdash; Implement responsive mobile view Done BEACON-103 &mdash; Add dark mode theme support Done BEACON-104 &mdash; Migrate to new component library Done BEACON-105 &mdash; Integrate with updated payment API In Progress Post-Deployment Verification Smoke test all critical user journeys Check application logs for errors Verify monitoring dashboards are GREEN Confirm ServiceNow CR is closed Rollback Trigger Conditions Critical error rate exceeds 1% within 15 minutes of deploy Any P1 incident raised post-deployment Key feature unavailable after verification",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/BEACON/pages/5144593",
+      "last_updated": "2026-04-16",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "5177360",
+      "title": "BEACON v2.0 – Test Evidence",
+      "content": "Project Beacon &mdash; Test Evidence Version: v2.0 &mdash; May 2026 Release Test Coverage Summary Metric Value Total tickets 10 Tickets Done 4 Test-linked tickets 4 Coverage 40% Test-Linked Tickets Ticket Summary Test Status BEACON-101 Redesign customer dashboard layout Linked Done BEACON-102 Implement responsive mobile view Linked Done BEACON-103 Add dark mode theme support Linked Done BEACON-104 Migrate to new component library Linked Done Test Types Performed Unit Tests &mdash; per ticket PR Integration Tests &mdash; staging environment Regression Tests &mdash; automated suite UAT &mdash; stakeholder sign-off",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/BEACON/pages/5177360",
+      "last_updated": "2026-04-16",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "5177375",
+      "title": "BEACON v2.0 – Rollback Procedure",
+      "content": "Project Beacon &mdash; Rollback Procedure Version: v2.0 &mdash; May 2026 Release | DB Migration: No When to Rollback Error rate exceeds threshold within 15 minutes of deployment P1 incident raised and confirmed as deployment-related On-call engineer and release manager agree rollback is needed Rollback Steps Notify stakeholders via incident channel Raise ServiceNow incident linked to BEACON Change Request Revert deployment to previous stable version Verify application is operational on previous version Run smoke tests to confirm stability Update ServiceNow CR with rollback outcome Schedule post-incident review within 48 hours Contacts Role Action Release Manager Approves rollback decision On-Call Engineer Executes rollback steps CAB Representative Updates ServiceNow CR QA Lead Verifies rollback smoke tests",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/BEACON/pages/5177375",
+      "last_updated": "2026-04-16",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "5242896",
+      "title": "BEACON v2.0 – Release Plan",
+      "content": "Project Beacon &mdash; Release Plan Version: v2.0 &mdash; May 2026 Release | Team: Team Beta (5 members) | Description: Customer portal UI redesign Readiness: Green/Amber &mdash; mostly done, blocked by Atlas DB Migration: No | Has Dependencies: Yes &mdash; blocked by Atlas Progress 4 of 10 tickets done (40% complete) Ticket Summary Ticket Type Summary Status Assignee BEACON-101 Story Redesign customer dashboard layout Done Dev5 BEACON-102 Story Implement responsive mobile view Done Dev6 BEACON-103 Story Add dark mode theme support Done Dev5 BEACON-104 Story Migrate to new component library Done Dev7 BEACON-105 Story Integrate with updated payment API In Progress Dev6 BEACON-106 Bug CSS rendering issue in Safari Open Dev7 BEACON-201 Test Execution Test dashboard layout &mdash; cross-browser Passed QA3 BEACON-202 Test Execution Test mobile responsiveness Passed QA3 BEACON-203 Test Execution Test dark mode &mdash; accessibility Passed QA3 BEACON-204 Test Execution Test component library migration Passed QA3 Dependencies Source Link Target Reason Risk ATLAS-102 blocks BEACON-105 Beacon's payment integration depends on Atlas's new schema Medium &mdash; late Atlas delivery blocks Beacon BEACON-104 depends on DELTA-102 Beacon's component library uses Delta's date filter Low &mdash; Delta is complete ServiceNow / CAB Type Number Description State CAB Decision No ServiceNow records",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/BEACON/pages/5242896",
+      "last_updated": "2026-04-16",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "5308417",
+      "title": "BEACON v2.0 – Release Notes",
+      "content": "Project Beacon &mdash; Release Notes Version: v2.0 &mdash; May 2026 Release Customer portal UI redesign New Features BEACON-101 &mdash; Redesign customer dashboard layout High BEACON-102 &mdash; Implement responsive mobile view High BEACON-103 &mdash; Add dark mode theme support Medium BEACON-104 &mdash; Migrate to new component library High BEACON-105 &mdash; Integrate with updated payment API High Bug Fixes BEACON-106 &mdash; CSS rendering issue in Safari Medium Tasks & Improvements None Historical Context Month Type Data Point Outcome No historical data Known Issues Refer to open Jira tickets for remaining known issues",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/BEACON/pages/5308417",
+      "last_updated": "2026-04-16",
+      "labels": [],
+      "is_meeting_note": true
+    }
+  ]
+}

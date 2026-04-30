@@ -1,0 +1,289 @@
+{
+  "project": {
+    "id": "beacon",
+    "name": "Beacon",
+    "description": "",
+    "status": "In Progress",
+    "start_date": "",
+    "deadline": "2026-12-31",
+    "source": {
+      "type": "jira_live",
+      "domain": "https://yourcompany.atlassian.net",
+      "project_key": "BEACON",
+      "fetched_at": "2026-04-17"
+    }
+  },
+  "tasks": [
+    {
+      "id": "BEACON-10",
+      "title": "Test component library migration",
+      "type": "Task",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/BEACON-10)"
+    },
+    {
+      "id": "BEACON-9",
+      "title": "Test dark mode — accessibility",
+      "type": "Task",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "Medium",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/BEACON-9)"
+    },
+    {
+      "id": "BEACON-8",
+      "title": "Test mobile responsiveness",
+      "type": "Task",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/BEACON-8)"
+    },
+    {
+      "id": "BEACON-7",
+      "title": "Test dashboard layout — cross-browser",
+      "type": "Task",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/BEACON-7)"
+    },
+    {
+      "id": "BEACON-6",
+      "title": "CSS rendering issue in Safari",
+      "type": "Bug",
+      "status": "To Do",
+      "jira_status": "To Do",
+      "priority": "Medium",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": null,
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/BEACON-6)"
+    },
+    {
+      "id": "BEACON-5",
+      "title": "Integrate with updated payment API",
+      "type": "Story",
+      "status": "In Progress",
+      "jira_status": "In Progress",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": null,
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/BEACON-5)"
+    },
+    {
+      "id": "BEACON-4",
+      "title": "Migrate to new component library",
+      "type": "Story",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP_M3"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/BEACON-4)"
+    },
+    {
+      "id": "BEACON-3",
+      "title": "Add dark mode theme support",
+      "type": "Story",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "Medium",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/BEACON-3)"
+    },
+    {
+      "id": "BEACON-2",
+      "title": "Implement responsive mobile view",
+      "type": "Story",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/BEACON-2)"
+    },
+    {
+      "id": "BEACON-1",
+      "title": "Redesign customer dashboard layout",
+      "type": "Story",
+      "status": "Done",
+      "jira_status": "Done",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": "2026-04-14",
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/BEACON-1)"
+    }
+  ],
+  "team": [
+    {
+      "id": "unassigned",
+      "name": "Unassigned",
+      "role": "Team Member",
+      "capacity_hours_per_week": 40,
+      "assigned_tasks": [
+        "BEACON-10",
+        "BEACON-9",
+        "BEACON-8",
+        "BEACON-7",
+        "BEACON-6",
+        "BEACON-5",
+        "BEACON-4",
+        "BEACON-3",
+        "BEACON-2",
+        "BEACON-1"
+      ]
+    }
+  ],
+  "release_readiness": {
+    "readiness_color": "AMBER",
+    "blockers": [],
+    "qa_gaps": [],
+    "doc_gaps": [],
+    "cross_dependencies": [],
+    "servicenow_cr": "CHG0001002",
+    "cab_status": "Pending",
+    "cab_state": "Assess (New)",
+    "scheduled_start": "2026-05-16 22:00",
+    "scheduled_end": "2026-05-17 00:00",
+    "affected_cis": "customer-portal-prod, k8s-cluster-prod",
+    "go_nogo_recommendation": "NO-GO"
+  },
+  "historical_context": {
+    "rollbacks_last_6": 0,
+    "overruns_last_6": 0,
+    "avg_overrun_days": 0,
+    "records": [
+      {
+        "month": "Oct 2025",
+        "type": "Post-Release Report",
+        "data_point": "Duration: 22 min vs 25 min planned",
+        "outcome": "Completed successfully",
+        "pattern": "Consistently on-time"
+      },
+      {
+        "month": "Sep 2025",
+        "type": "Post-Release Report",
+        "data_point": "Duration: 18 min vs 20 min planned",
+        "outcome": "Completed successfully",
+        "pattern": "Consistently on-time"
+      },
+      {
+        "month": "Aug 2025",
+        "type": "Post-Release Report",
+        "data_point": "Duration: 20 min vs 25 min planned",
+        "outcome": "Completed successfully",
+        "pattern": "Consistently on-time"
+      },
+      {
+        "month": "Oct 2025",
+        "type": "Closed CR",
+        "data_point": "CHG0000401 — Portal Accessibility",
+        "outcome": "Completed successfully",
+        "pattern": "Clean record"
+      },
+      {
+        "month": "Feb 2026",
+        "type": "Closed CR",
+        "data_point": "CHG0000802 — Portal Hotfix",
+        "outcome": "Completed successfully",
+        "pattern": "Clean record"
+      },
+      {
+        "month": "Mar 2026",
+        "type": "Closed CR",
+        "data_point": "CHG0000903 — Portal Update",
+        "outcome": "Completed successfully",
+        "pattern": "Clean record"
+      }
+    ],
+    "notes": [
+      "Completed successfully",
+      "Completed successfully",
+      "Completed successfully",
+      "Completed successfully",
+      "Completed successfully",
+      "Completed successfully"
+    ]
+  }
+}

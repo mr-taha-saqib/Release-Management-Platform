@@ -1,0 +1,88 @@
+{
+  "space_key": "CIPHER",
+  "space_name": "Cipher",
+  "fetched_at": "2026-04-17",
+  "pages": [
+    {
+      "id": "4784292",
+      "title": "Cipher",
+      "content": "Description #F4F5F7 In a sentence or two, describe the purpose of this space. Project Tracker com.atlassian.confluence.project-linker project-linker default 3781a39a-e79f-41c1-a914-38846c22a77c Recently updated content This list below will automatically update each time somebody in your space creates or updates content. page,whiteboard,database,blog 10 concise true Contributors This list below will automatically update each time somebody in your space creates or updates content. descendants 10",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/CIPHER/pages/4784292",
+      "last_updated": "2026-04-15",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "4784305",
+      "title": "Template - Project plan",
+      "content": "Driver @ mention the driver Approver @ approver Contributors @ contributors Informed @ stakeholders Objective Summarize the objective in 1-2 sentences Due date Type // to add a date Key outcomes List expected outcomes and success metrics Status not started / in progress Yellow / complete Green Problem statement Describe the problem and its impact. Include the hypothesis that's driving your work (&quot;We think X will do Y, and we'll know we've succeeded if Z&quot;). Scope Must have: Add your project's core requirements Nice to have: Add anything you want but don't strictly need Not in scope: Add anything you don't want to include Timeline Add a timeline link here or type /whiteboard to create a timeline in whiteboards Milestones and deadlines Milestone Owner Deadline Status e.g., Finalize designs for v1 @ owner Type // to add a date Related links Type /database to create a database of relevant research, meetings, or any other key documents for this project",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/CIPHER/pages/4784305",
+      "last_updated": "2026-04-15",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "4784317",
+      "title": "Template - Decision documentation",
+      "content": "Status Not started / In progress Yellow / Complete Green Impact High Red / Medium Yellow / Low Green Driver @ mention driver Approver @ approver Contributors @ contributors Informed @ stakeholders Due date Type // to add a date Resources Type /link to add links to relevant research, pages, and related decisions Background Provide context on a decision the team needs to make and include information about constraints and challenges. Relevant data Add any data or feedback the team should consider when making this decision. Options considered Option 1 Option 2 Description Pros and cons Estimated cost Large Red Medium Yellow Action items Add action items to close the loop on open questions or concerns. \\n \\n 1 \\n incomplete \\n Type your task here. Use &quot;@&quot; to assign a user and &quot;//&quot; to select a due date. \\n \\n Outcome Summarize the outcome.",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/CIPHER/pages/4784317",
+      "last_updated": "2026-04-15",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "4784329",
+      "title": "Template - Meeting notes",
+      "content": "Date Participants Type @ name to mention a person and add them as a meeting attendee - they will be notified Goals List goals for this meeting (e.g., Set design priorities for FY27) Brainstorm Type /whiteboard to create an interactive canvas for icebreakers, brainstorms, diagramming, retros, and more Discussion topics Time Topic Presenter Notes @ mention teammate Add notes for each discussion topic Action items incomplete Decisions Type /decision to record the decisions you make in this meeting: a9acb477-d23d-4eaf-804d-949d8f93d5fd 09e852c8-fa50-4b0e-ae8b-e15af9aa155d DECIDED Related info Type /database to create a database of related information, meetings, or assets",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/CIPHER/pages/4784329",
+      "last_updated": "2026-04-15",
+      "labels": [],
+      "is_meeting_note": true
+    },
+    {
+      "id": "5144608",
+      "title": "CIPHER v1.5 – Deployment Runbook",
+      "content": "Project Cipher &mdash; Deployment Runbook Version: v1.5 &mdash; May 2026 Release | DB Migration: No Prerequisites All tickets in Done status before deployment CAB approval obtained from ServiceNow Rollback procedure reviewed and tested Deployment Steps CIPHER-101 &mdash; Implement WAF rules for API gateway In Progress CIPHER-102 &mdash; Add mTLS authentication between services To Do CIPHER-103 &mdash; Implement rate limiting on public endpoints To Do CIPHER-104 &mdash; Harden API gateway configuration In Progress Post-Deployment Verification Smoke test all critical user journeys Check application logs for errors Verify monitoring dashboards are GREEN Confirm ServiceNow CR is closed Rollback Trigger Conditions Critical error rate exceeds 1% within 15 minutes of deploy Any P1 incident raised post-deployment Key feature unavailable after verification",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/CIPHER/pages/5144608",
+      "last_updated": "2026-04-16",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "5177390",
+      "title": "CIPHER v1.5 – Release Notes",
+      "content": "Project Cipher &mdash; Release Notes Version: v1.5 &mdash; May 2026 Release Security audit remediation (API gateway) New Features CIPHER-101 &mdash; Implement WAF rules for API gateway Critical CIPHER-102 &mdash; Add mTLS authentication between services High CIPHER-103 &mdash; Implement rate limiting on public endpoints High CIPHER-104 &mdash; Harden API gateway configuration Critical Bug Fixes CIPHER-105 &mdash; TLS certificate chain validation failing Blocker CIPHER-106 &mdash; Rate limiter incorrectly counting internal traffic Critical CIPHER-107 &mdash; JWT token validation bypass on edge case Blocker Tasks & Improvements None Historical Context Month Type Data Point Outcome No historical data Known Issues Refer to open Jira tickets for remaining known issues",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/CIPHER/pages/5177390",
+      "last_updated": "2026-04-16",
+      "labels": [],
+      "is_meeting_note": true
+    },
+    {
+      "id": "5275664",
+      "title": "CIPHER v1.5 – Test Evidence",
+      "content": "Project Cipher &mdash; Test Evidence Version: v1.5 &mdash; May 2026 Release Test Coverage Summary Metric Value Total tickets 8 Tickets Done 0 Test-linked tickets 1 Coverage 12% Test-Linked Tickets Ticket Summary Test Status CIPHER-101 Implement WAF rules for API gateway Linked In Progress Test Types Performed Unit Tests &mdash; per ticket PR Integration Tests &mdash; staging environment Regression Tests &mdash; automated suite UAT &mdash; stakeholder sign-off",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/CIPHER/pages/5275664",
+      "last_updated": "2026-04-16",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "5341185",
+      "title": "CIPHER v1.5 – Release Plan",
+      "content": "Project Cipher &mdash; Release Plan Version: v1.5 &mdash; May 2026 Release | Team: Team Gamma (4 members) | Description: Security audit remediation (API gateway) Readiness: Red &mdash; most work incomplete, no docs DB Migration: No | Has Dependencies: Yes &mdash; blocks Atlas Progress 0 of 8 tickets done (0% complete) Ticket Summary Ticket Type Summary Status Assignee CIPHER-101 Story Implement WAF rules for API gateway In Progress Dev8 CIPHER-102 Story Add mTLS authentication between services To Do Dev9 CIPHER-103 Story Implement rate limiting on public endpoints To Do Dev8 CIPHER-104 Story Harden API gateway configuration In Progress Dev9 CIPHER-105 Bug TLS certificate chain validation failing Open Dev8 CIPHER-106 Bug Rate limiter incorrectly counting internal traffic Open Dev9 CIPHER-107 Bug JWT token validation bypass on edge case Open Dev8 CIPHER-201 Test Execution Test WAF rules &mdash; penetration test Not Started QA4 Dependencies Source Link Target Reason Risk CIPHER-104 blocks ATLAS-103 Atlas's gateway update depends on Cipher's hardening High &mdash; Cipher is significantly behind CIPHER-101 relates to ATLAS-101 Both modify API gateway configuration Medium &mdash; config conflict risk CHG0001051 (External) shared CI CHG0001003 (Cipher) Both affect api-gateway-prod Medium &mdash; firewall change before gateway hardening ServiceNow / CAB Type Number Description State CAB Decision No ServiceNow records",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/CIPHER/pages/5341185",
+      "last_updated": "2026-04-16",
+      "labels": [],
+      "is_meeting_note": false
+    },
+    {
+      "id": "5373953",
+      "title": "CIPHER v1.5 – Rollback Procedure",
+      "content": "Project Cipher &mdash; Rollback Procedure Version: v1.5 &mdash; May 2026 Release | DB Migration: No When to Rollback Error rate exceeds threshold within 15 minutes of deployment P1 incident raised and confirmed as deployment-related On-call engineer and release manager agree rollback is needed Rollback Steps Notify stakeholders via incident channel Raise ServiceNow incident linked to CIPHER Change Request Revert deployment to previous stable version Verify application is operational on previous version Run smoke tests to confirm stability Update ServiceNow CR with rollback outcome Schedule post-incident review within 48 hours Contacts Role Action Release Manager Approves rollback decision On-Call Engineer Executes rollback steps CAB Representative Updates ServiceNow CR QA Lead Verifies rollback smoke tests",
+      "url": "https://tahasaqib24.atlassian.net/wiki/spaces/CIPHER/pages/5373953",
+      "last_updated": "2026-04-16",
+      "labels": [],
+      "is_meeting_note": false
+    }
+  ]
+}

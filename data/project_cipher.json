@@ -1,0 +1,201 @@
+{
+  "project": {
+    "id": "cipher",
+    "name": "Cipher",
+    "description": "",
+    "status": "In Progress",
+    "start_date": "",
+    "deadline": "2026-12-31",
+    "source": {
+      "type": "jira_live",
+      "domain": "https://yourcompany.atlassian.net",
+      "project_key": "CIPHER",
+      "fetched_at": "2026-04-17"
+    }
+  },
+  "tasks": [
+    {
+      "id": "CIPHER-8",
+      "title": "Test WAF rules — penetration test",
+      "type": "Task",
+      "status": "To Do",
+      "jira_status": "To Do",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": null,
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/CIPHER-8)"
+    },
+    {
+      "id": "CIPHER-7",
+      "title": "JWT token validation bypass on edge case",
+      "type": "Bug",
+      "status": "To Do",
+      "jira_status": "To Do",
+      "priority": "Highest",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": null,
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/CIPHER-7)"
+    },
+    {
+      "id": "CIPHER-6",
+      "title": "Rate limiter incorrectly counting internal traffic",
+      "type": "Bug",
+      "status": "To Do",
+      "jira_status": "To Do",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": null,
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/CIPHER-6)"
+    },
+    {
+      "id": "CIPHER-5",
+      "title": "TLS certificate chain validation failing",
+      "type": "Bug",
+      "status": "To Do",
+      "jira_status": "To Do",
+      "priority": "Highest",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": null,
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/CIPHER-5)"
+    },
+    {
+      "id": "CIPHER-4",
+      "title": "Harden API gateway configuration",
+      "type": "Story",
+      "status": "In Progress",
+      "jira_status": "In Progress",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": null,
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/CIPHER-4)"
+    },
+    {
+      "id": "CIPHER-3",
+      "title": "Implement rate limiting on public endpoints",
+      "type": "Story",
+      "status": "To Do",
+      "jira_status": "To Do",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": null,
+      "labels": [
+        "MVP__descoped_M1_"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/CIPHER-3)"
+    },
+    {
+      "id": "CIPHER-2",
+      "title": "Add mTLS authentication between services",
+      "type": "Story",
+      "status": "To Do",
+      "jira_status": "To Do",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": null,
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/CIPHER-2)"
+    },
+    {
+      "id": "CIPHER-1",
+      "title": "Implement WAF rules for API gateway",
+      "type": "Story",
+      "status": "In Progress",
+      "jira_status": "In Progress",
+      "priority": "High",
+      "assigned_to": "Unassigned",
+      "estimated_time": 8.0,
+      "actual_time": null,
+      "created": "2026-04-14",
+      "resolved": null,
+      "labels": [
+        "MVP"
+      ],
+      "_real": true,
+      "_source": "Jira API (https://yourcompany.atlassian.net/browse/CIPHER-1)"
+    }
+  ],
+  "team": [
+    {
+      "id": "unassigned",
+      "name": "Unassigned",
+      "role": "Team Member",
+      "capacity_hours_per_week": 40,
+      "assigned_tasks": [
+        "CIPHER-8",
+        "CIPHER-7",
+        "CIPHER-6",
+        "CIPHER-5",
+        "CIPHER-4",
+        "CIPHER-3",
+        "CIPHER-2",
+        "CIPHER-1"
+      ]
+    }
+  ],
+  "release_readiness": {
+    "readiness_color": "RED",
+    "blockers": [],
+    "qa_gaps": [],
+    "doc_gaps": [],
+    "cross_dependencies": [],
+    "servicenow_cr": "CHG0001003",
+    "cab_status": "Not Submitted",
+    "cab_state": "Draft",
+    "scheduled_start": "2026-05-16 23:00",
+    "scheduled_end": "2026-05-17 03:00",
+    "affected_cis": "api-gateway-prod, k8s-cluster-prod",
+    "go_nogo_recommendation": "NO-GO"
+  },
+  "historical_context": {
+    "rollbacks_last_6": 0,
+    "overruns_last_6": 0,
+    "avg_overrun_days": 0,
+    "records": [],
+    "notes": []
+  }
+}
