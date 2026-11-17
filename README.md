@@ -12,6 +12,10 @@ Ask plain-English questions about your releases and get answers built from your 
 - *"Are we ready to release? What does the CAB say?"*
 - *"What should we focus on next?"*
 
+![Projects overview: progress, task status, risk level and deadline for each release](docs/screenshots/projects.png)
+
+*The web UI on the four bundled sample projects (`python app.py`).*
+
 Every number in an answer is computed from the project data; nothing is guessed. When a local [Ollama](https://ollama.com) model is running it phrases the answer in natural language, and when it isn't, a deterministic rule-based engine answers instead, so the tool works fully offline with no API keys.
 
 ---
